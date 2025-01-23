@@ -1,3 +1,7 @@
+.images{
+  display: flex;
+  justify-content: center;
+}
 .img1 {
   content: url("https://picsum.photos/id/237/200/300");
 }
@@ -31,10 +35,23 @@ img {
   border: 5px solid rgb(0, 195, 255);
 }
 
+
 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
-
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 button {
   margin: 20px;
+}
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
